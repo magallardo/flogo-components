@@ -1,0 +1,23 @@
+{
+  "name": "playtone",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "Plays a tone on an EV3 device",
+  "author": "gallardo@tibco.com",
+  "inputs":[
+    {
+      "tone": "input",
+      "type": "int"
+    },
+    {
+      "duration": "input",
+      "type": "int"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
