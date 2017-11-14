@@ -33,6 +33,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	// Get the activity data from the context
 	//tone := context.GetInput("tone").(int)
 	//duration := context.GetInput("duration").(int)
+	println("starting")
 	must(speaker.Init())
 	defer speaker.Close()
 
