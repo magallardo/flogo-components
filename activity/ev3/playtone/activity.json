@@ -6,11 +6,11 @@
   "author": "gallardo@tibco.com",
   "inputs":[
     {
-      "tone": "input",
+      "name": "tone",
       "type": "int"
     },
     {
-      "duration": "input",
+      "name": "duration",
       "type": "int"
     }
   ],
