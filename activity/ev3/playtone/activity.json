@@ -2,7 +2,7 @@
   "name": "playtone",
   "version": "0.0.1",
   "type": "flogo:activity",
-  "description": "Plays a tone on an EV3 device",
+  "description": "Activity to play a tone on an EV3 device",
   "author": "gallardo@tibco.com",
   "inputs":[
     {
