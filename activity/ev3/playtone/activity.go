@@ -2,13 +2,13 @@ package playtone
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+//	"github.com/TIBCOSoftware/flogo-lib/logger"
 //	"github.com/ev3go/ev3dev"
 //	"time"
 )
 
 // log is the default package logger
-var log = logger.GetLogger("activity-playtone")
+//var log = logger.GetLogger("activity-playtone")
 
 // SoundPath is the path to the ev3 sound events
 //const SoundPath = "/dev/input/by-path/platform-snd-legoev3-event"
@@ -33,7 +33,7 @@ func (a *MyActivity) Metadata() *activity.Metadata {
 // Eval implements activity.Activity.Eval
 func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
-	log.Info ("Starting Eval...")
+	//log.Info ("Starting Eval...")
 	// Get the activity data from the context
 	//tone := context.GetInput("tone").(int)
 	//duration := context.GetInput("duration").(int)
