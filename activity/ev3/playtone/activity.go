@@ -8,9 +8,9 @@ import (
 )
 
 // SoundPath is the path to the ev3 sound events
-const SoundPath = "/dev/input/by-path/platform-snd-legoev3-event"
+//const SoundPath = "/dev/input/by-path/platform-snd-legoev3-event"
 
-var speaker = ev3dev.NewSpeaker(SoundPath)
+//var speaker = ev3dev.NewSpeaker(SoundPath)
 
 // MyActivity is a stub for your Activity implementation
 type MyActivity struct {
@@ -34,15 +34,15 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	//tone := context.GetInput("tone").(int)
 	//duration := context.GetInput("duration").(int)
 	println("starting")
-	must(speaker.Init())
-	defer speaker.Close()
+	//must(speaker.Init())
+	//defer speaker.Close()
 
 	// Play tone for given duration
-	must(speaker.Tone(400))
-	time.Sleep(200 * time.Millisecond)
+	//must(speaker.Tone(400))
+	//time.Sleep(200 * time.Millisecond)
 
 	// Then stop tone playback
-	must(speaker.Tone(0))
+	//must(speaker.Tone(0))
 
 	// Set the output as part of the context
 	context.SetOutput("output", "Success")
