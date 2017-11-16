@@ -55,6 +55,6 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
 func must(err error) {
 	if err != nil {
-		log.Fatal(err)
+		log.Errorf("Failed to open device, err: %s\n", err)
 	}
 }
