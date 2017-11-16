@@ -2,9 +2,7 @@ package playtone
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/ev3go/ev3dev"
 	"log"
-	"time"
 )
 
 // SoundPath is the path to the ev3 sound events
