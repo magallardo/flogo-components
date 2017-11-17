@@ -1,6 +1,7 @@
 {
   "name": "HelloWorld",
   "version": "0.0.1",
+  "ref": "github.com/magallardo/flogo-components/activity/ev3/HelloWorld",
   "type": "flogo:activity",
   "description": "Hello World Activity",
   "author": "gallardo@tibco.com",
