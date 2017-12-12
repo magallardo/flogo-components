@@ -1,6 +1,7 @@
-{
+{  
   "name": "playtone",
   "version": "0.0.1",
+  "ref": "github.com/magallardo/flogo-components/activity/ev3/playtone",
   "type": "flogo:activity",
   "description": "Activity to play a tone on an EV3 device",
   "author": "gallardo@tibco.com",
