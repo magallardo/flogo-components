@@ -1,4 +1,4 @@
-package EV3Activity
+package sensors
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
